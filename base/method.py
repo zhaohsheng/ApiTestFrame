@@ -17,10 +17,7 @@ yaml -->tavern
 excel
 json
 '''
-'''
-pytest:必须以test开头
-unittest：必须继承TestCase
-'''
+
 class Requests():
 	'''请求方法底层方法封装'''
 	def request(self,url,method='get',**kwargs):
